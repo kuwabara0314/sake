@@ -1,0 +1,46 @@
+<div class="header">
+  <div class="header1">
+    <div class="header_t">
+      <div class="header_title1">
+      <%="For"%>
+      </div>
+      <div class="header_title2">
+      <%="the"%>
+      </div>
+    </div>
+      <div class="header_title3">
+      <%=link_to 'SAKE', root_path, class:"header_link" %>
+      </div>
+  </div>
+
+  <div class="header_login">
+    <div class="header_user_login">
+     <%=link_to "CUSTORMER", "#", class:"header_link"%>
+    </div>
+    <%= "|" %>
+    <div class="header_shop_login">
+     <%=link_to "SHOP", "#", class:"header_link"%>
+    </div>
+  </div>
+</div>
+
+<div class="header_ber"></div>
+
+
+<div class="header_contents">
+
+  <div class='nav'>
+    <ul class='lists-left'>
+      <%= link_to 'CATEGORY', "#", class: "header_link" %>
+      <%= link_to 'SHOP', "#", class: "header_link" %>
+      <%= link_to 'PREFECTURE', "#", class: "header_link" %>
+    </ul>
+  </div>
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <form method="get" action="#" class="search_container">
+    <input type="text" size="25" placeholder="SEARCH">
+    <input type="submit" value="&#xf002">
+  </form>
+
+</div>
