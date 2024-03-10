@@ -1,0 +1,22 @@
+.main{
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_images{
+  border: 3px darkgray solid;
+  height: 300px;
+  width: 250px;
+}
+
+.name_link {
+  color: darkgray;
+  text-decoration: none;
+  font-weight: bold;
+}
+li{
+  list-style: none;
+}
